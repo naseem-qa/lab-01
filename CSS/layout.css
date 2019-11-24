@@ -1,18 +1,4 @@
-body{
-    border-style: solid;
-    /* background-color: grey; */
-    
-    }
-    
-    main{
-        background-color: khaki;
-        width:  960px;
-        height: 700px;
-        margin-right: auto;
-        margin-left:auto;
-        position: relative;
-    }
-    
+
     .a {
         /* border-style: solid; */
         /* color: blue; */
@@ -108,14 +94,6 @@ body{
         line-height: 150px;
     }
     @media (max-width:480px){
-        main{
-            background-color: deeppink;
-            width:  480px;
-            margin-right: auto;
-            margin-left:auto;
-            position: relative;
-      
-        }
         .a {
             /* border-style: solid; */
             /* color: blue; */
