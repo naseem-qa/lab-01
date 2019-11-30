@@ -1,25 +1,33 @@
-body{
-    border-style: solid;
-    /* background-color: grey; */
-    
+@media screen and (min-width: 480px) {
+    body {
+        background-color: rgb(36, 117, 33);
     }
-    
-    main{
-        background-color: khaki;
-        width:  960px;
-        height: 700px;
+    main {
+        background-color: deeppink;
+        width: 480px;
         margin-right: auto;
-        margin-left:auto;
+        margin-left: auto;
         position: relative;
     }
-    
-    @media (max-width:480px){
-        main{
-            background-color: deeppink;
-            width:  480px;
-            margin-right: auto;
-            margin-left:auto;
-            position: relative;
-      
-        }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(206, 138, 138);
     }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        border-style: solid;
+        background-color: rgb(146, 52, 138);
+    }
+    main {
+        background-color: khaki;
+        width: 960px;
+        height: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+}
